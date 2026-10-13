@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#090711">
+  <title>ROBLOX HUB — Игровой портал</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#home"><span class="brand-icon">◆</span> ROBLOX<span class="brand-muted">HUB</span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Открыть меню">☰</button>
+    <nav id="nav">
+      <a class="active" href="#home">Главная</a>
+      <a href="#games">Игры</a>
+      <a href="#community">Сообщество</a>
+      <a href="#news">Новости</a>
+    </nav>
+    <a class="top-button" href="https://www.roblox.com/" target="_blank" rel="noopener">Играть в Roblox ↗</a>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="pulse"></span> ТВОЙ ИГРОВОЙ МИР</p>
+        <h1>ИГРАЙ.<br><span>СОЗДАВАЙ.</span><br>ПОБЕЖДАЙ.</h1>
+        <p class="hero-text">Открой новые миры Roblox, найди любимые игры и присоединяйся к игровому сообществу.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#games">Исследовать игры <span>→</span></a>
+          <a class="button secondary" href="https://www.roblox.com/" target="_blank" rel="noopener">Открыть Roblox ↗</a>
+        </div>
+        <div class="hero-stats">
+          <div><strong>∞</strong><small>МИРОВ</small></div>
+          <div><strong>🎮</strong><small>ИГР НА ЛЮБОЙ ВКУС</small></div>
+          <div><strong>★</strong><small>ТВОИ ПРИКЛЮЧЕНИЯ</small></div>
+        </div>
+      </div>
+      <div class="hero-art" aria-label="Декоративная фиолетовая игровая графика">
+        <div class="orb orb-one"></div><div class="orb orb-two"></div>
+        <div class="ring"></div>
+        <div class="floating-card card-top">PLAYER <b>01</b></div>
+        <div class="avatar">
+          <div class="avatar-hair"></div><div class="avatar-head"><span></span><span></span><i></i></div>
+          <div class="avatar-body"><b>R</b></div><div class="avatar-arm arm-left"></div><div class="avatar-arm arm-right"></div>
+          <div class="avatar-leg leg-left"></div><div class="avatar-leg leg-right"></div>
+        </div>
+        <div class="floating-card card-bottom"><span class="status-dot"></span> READY TO PLAY</div>
+        <div class="art-caption">YOUR NEXT<br><b>ADVENTURE</b></div>
+      </div>
+    </section>
+
+    <section class="section" id="games">
+      <div class="section-heading">
+        <div><p class="eyebrow">ВЫБИРАЙ СВОЁ</p><h2>Популярные <span>игры</span></h2></div>
+        <span class="section-tag">GAME ZONE / 01</span>
+      </div>
+      <div class="filters" role="group" aria-label="Фильтр игр">
+        <button class="filter active" data-filter="all">Все игры</button>
+        <button class="filter" data-filter="adventure">Приключения</button>
+        <button class="filter" data-filter="horror">Хоррор</button>
+        <button class="filter" data-filter="roleplay">Ролевые</button>
+      </div>
+      <div class="game-grid">
+        <article class="game-card" data-category="adventure">
+          <div class="game-art art-fruit"><span>🍇</span><small>POWER UP</small><b>BLOX<br>FRUITS</b></div>
+          <div class="game-info"><div><h3>Blox Fruits</h3><p>Приключения · Экшен</p></div><a href="https://www.roblox.com/" target="_blank" rel="noopener" aria-label="Найти Blox Fruits в Roblox">↗</a></div>
+        </article>
+        <article class="game-card" data-category="roleplay">
+          <div class="game-art art-brook"><span>🏡</span><small>LIVE YOUR STORY</small><b>BROOKHAVEN</b></div>
+          <div class="game-info"><div><h3>Brookhaven RP</h3><p>Ролевая игра</p></div><a href="https://www.roblox.com/" target="_blank" rel="noopener" aria-label="Найти Brookhaven в Roblox">↗</a></div>
+        </article>
+        <article class="game-card" data-category="horror">
+          <div class="game-art art-doors"><span>🚪</span><small>DON'T LOOK BACK</small><b>DOORS</b></div>
+          <div class="game-info"><div><h3>DOORS</h3><p>Хоррор · Выживание</p></div><a href="https://www.roblox.com/" target="_blank" rel="noopener" aria-label="Найти DOORS в Roblox">↗</a></div>
+        </article>
+        <article class="game-card" data-category="adventure">
+          <div class="game-art art-bed"><span>⚔️</span><small>FIGHT TO WIN</small><b>BEDWARS</b></div>
+          <div class="game-info"><div><h3>BedWars</h3><p>Командный бой</p></div><a href="https://www.roblox.com/" target="_blank" rel="noopener" aria-label="Найти BedWars в Roblox">↗</a></div>
+        </article>
+        <article class="game-card" data-category="horror">
+          <div class="game-art art-horror"><span>👁</span><small>CAN YOU ESCAPE?</small><b>HORROR<br>ZONE</b></div>
+          <div class="game-info"><div><h3>Хоррор-зона</h3><p>Страшные приключения</p></div><a href="https://www.roblox.com/" target="_blank" rel="noopener" aria-label="Найти хоррор игры в Roblox">↗</a></div>
+        </article>
+        <article class="game-card" data-category="roleplay">
+          <div class="game-art art-avatar"><span>🧑‍🚀</span><small>BE ANYONE</small><b>YOUR<br>AVATAR</b></div>
+          <div class="game-info"><div><h3>Твой аватар</h3><p>Стиль · Ролевые игры</p></div><a href="https://www.roblox.com/" target="_blank" rel="noopener" aria-label="Открыть Roblox">↗</a></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="community" id="community">
+      <div class="community-icon">✦</div>
+      <div><p class="eyebrow">НЕ ИГРАЙ В ОДИНОЧКУ</p><h2>Твоя команда ждёт</h2><p>Позови друзей, найди напарников и отправляйся навстречу новым приключениям.</p></div>
+      <a class="button primary" href="https://www.roblox.com/" target="_blank" rel="noopener">Найти друзей ↗</a>
+    </section>
+
+    <section class="section news-section" id="news">
+      <div class="section-heading"><div><p class="eyebrow">БУДЬ В КУРСЕ</p><h2>Новости <span>портала</span></h2></div><span class="section-tag">FEED / 02</span></div>
+      <div class="news-list">
+        <article><span class="news-number">01</span><div><h3>Добро пожаловать в ROBLOX HUB</h3><p>Это твой фанатский портал для поиска интересных игр.</p></div><span class="news-label">СТАРТ</span></article>
+        <article><span class="news-number">02</span><div><h3>Обнови список любимых игр</h3><p>Используй фильтры, чтобы быстрее найти приключения или хоррор.</p></div><span class="news-label">ГАЙД</span></article>
+      </div>
+    </section>
+  </main>
+
+  <footer><a class="brand" href="#home"><span class="brand-icon">◆</span> ROBLOX<span class="brand-muted">HUB</span></a><p>Фанатский сайт. Не является официальным сайтом Roblox.</p><a href="https://www.roblox.com/" target="_blank" rel="noopener">Официальный Roblox ↗</a></footer>
+  <script src="script.js"></script>
+</body>
+</html>
